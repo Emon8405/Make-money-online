@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emon8405.github.io/Make-money-online/sitemap.xml
