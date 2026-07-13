@@ -252,3 +252,29 @@ margin-top:20px;
 font-size:14px;
 opacity:.8;
 }
+.earning-box {
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 12px;
+    background: #f5f7fb;
+}
+
+.earning-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.earning-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.earning-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
