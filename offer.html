@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Download Now</title>
+
+<title>Download Now | Make Money AI</title>
 
 <style>
+
 body{
 margin:0;
 font-family:Arial,sans-serif;
@@ -24,12 +26,13 @@ color:#111;
 padding:30px;
 border-radius:15px;
 width:90%;
-max-width:400px;
+max-width:420px;
 box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
 h1{
 color:#2563eb;
+margin-bottom:10px;
 }
 
 button{
@@ -52,6 +55,29 @@ font-size:28px;
 font-weight:bold;
 color:red;
 }
+
+.progress{
+width:100%;
+height:10px;
+background:#ddd;
+border-radius:10px;
+margin:20px 0;
+overflow:hidden;
+}
+
+#progress{
+width:0%;
+height:100%;
+background:#2563eb;
+transition:width 1s linear;
+}
+
+ul{
+text-align:left;
+line-height:2;
+padding-left:20px;
+}
+
 </style>
 
 </head>
@@ -65,16 +91,18 @@ color:red;
 <p>Your file is almost ready.</p>
 
 <p>Wait <span id="count">5</span> seconds...</p>
-  <div style="width:100%;height:10px;background:#ddd;border-radius:10px;margin:20px 0;">
-  <div id="progress" style="width:0%;height:10px;background:#2563eb;border-radius:10px;transition:width 1s;"></div>
-  </div>
+
+<div class="progress">
+<div id="progress"></div>
+</div>
 
 <button id="btn" style="display:none;">Continue Download</button>
-  <hr>
+
+<hr>
 
 <h3>Why Download?</h3>
 
-<ul style="text-align:left;line-height:2;">
+<ul>
 <li>✅ 100% Free Access</li>
 <li>✅ Instant Download</li>
 <li>✅ Safe & Secure</li>
@@ -86,39 +114,41 @@ color:red;
 
 <script>
 
-let n=5;
+let n = 5;
 
-let c=document.getElementById("count");
+const count = document.getElementById("count");
+const progress = document.getElementById("progress");
+const btn = document.getElementById("btn");
 
-let btn=document.getElementById("btn");
-
-let timer=setInterval(function(){
+let timer = setInterval(function(){
 
 n--;
 
-c.innerHTML=n;
+count.innerHTML = n;
 
-if(n==0){
+progress.style.width = ((5 - n) * 20) + "%";
+
+if(n <= 0){
 
 clearInterval(timer);
 
-c.innerHTML="Done";
-  document.getElementById("progress").style.width=((5-n)*20)+"%";
+count.innerHTML = "Done";
 
-btn.style.display="inline-block";
+progress.style.width = "100%";
+
+btn.style.display = "inline-block";
 
 }
 
 },1000);
 
-btn.onclick=function(){
+btn.onclick = function(){
 
-window.location.href="https://www.effectivecpmnetwork.com/qv8pv4rpug?key=017081997a095bada346672a16db02c2";
+window.location.href = "https://www.effectivecpmnetwork.com/d7u2jxe2g5?key=9eaaf916e855ccd7f1e9293959c110b0";
 
 }
 
 </script>
 
 </body>
-  <script src="adsterra.js"></script>
 </html>
