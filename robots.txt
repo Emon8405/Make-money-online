@@ -1,3 +1,5 @@
+# robots.txt for Make Money AI
+
 User-agent: *
 Allow: /
 
