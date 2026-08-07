@@ -219,4 +219,87 @@ nav ul li a:hover{
 .copyright{
     margin-top:20px;
     opacity:.8;
-    font-size:14px
+    font-size:14px;
+}
+margin-bottom:0;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+    nav{
+        padding:12px 5%;
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .logo img{
+        height:60px;
+        max-width:100%;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+        padding:0;
+    }
+
+    nav ul li a{
+        font-size:14px;
+    }
+
+    .hero{
+        padding:70px 15px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    .features{
+        padding:50px 5%;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .featured{
+        padding:25px 15px;
+    }
+
+    .feature-card{
+        padding:20px;
+    }
+
+    .earning-box{
+        margin:35px 15px;
+        padding:30px 20px;
+    }
+
+    .footer{
+        padding:40px 15px;
+    }
+
+    .footer-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    .footer-links a{
+        margin:0 5px;
+    }
+}
