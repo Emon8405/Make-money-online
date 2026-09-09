@@ -643,3 +643,46 @@ textarea{
     }
 
     }
+/* ===== COMPARISON TABLE ===== */
+
+.article-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:25px 0 35px;
+    background:#fff;
+    overflow:hidden;
+}
+
+.article-table th,
+.article-table td{
+    border:1px solid #dbe3ef;
+    padding:12px;
+    text-align:left;
+    vertical-align:top;
+}
+
+.article-table th{
+    background:#f1f5f9;
+    color:#0f172a;
+    font-weight:bold;
+}
+
+.article-table tr:nth-child(even){
+    background:#f8fafc;
+}
+
+@media screen and (max-width:768px){
+
+    .article-table{
+        display:block;
+        overflow-x:auto;
+        white-space:normal;
+        font-size:14px;
+    }
+
+    .article-table th,
+    .article-table td{
+        min-width:120px;
+    }
+
+}
